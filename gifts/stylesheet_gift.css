@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=vietnamese');
+
+body {
+    font-family: "Roboto", sans-serif;
+    transition: background-color .5s;
+	  background-image: url(background.jpg);
+    background-color: #000000;
+    background-size: 100%;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+	
+  h1 {
+	  color: white;font-size: 45px;font-family: Roboto;text-align: center;
+  }	
+
+  p {
+    color: white;font-size: 20px;font-family: Roboto;text-align: justify;
+  }
+  
+
+ul {
+    transition: margin-left .5s;
+    padding: 16px;
+    text-align: center;
+}
+
+img {
+  width:50%;
+  height:50%;
+}
+label {
+  color: white;font-size: 20px;font-family: Roboto;text-align: justify;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media only screen 
+      and (max-width: 768px)
+      and (orientation: portrait)	  
+	  {
+	body {
+   background-size : cover ;
+}
+    .name, .name2, .description{
+        font-size : 45px;
+    }
+}
+
+@media only screen 
+      and (max-width: 768px)
+      and (orientation: landscape)	  
+	  {
+    .name, .name2, .description{
+        font-size : 45px;
+    }
+}
